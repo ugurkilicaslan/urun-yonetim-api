@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "urun-yonetim-frontend",
   "version": "0.1.0",
   "private": true,
@@ -36,5 +37,23 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+=======
+  "name": "urun-yonetim-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "mongoose": "^8.18.0"
+>>>>>>> 2d776749a1f29f59203720f703ce2e00e2a3e138
   }
 }
