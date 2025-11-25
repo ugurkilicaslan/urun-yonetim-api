@@ -25,4 +25,6 @@ app.get("/", (req, res) => {
   res.send("Vercel Backend API Çalışıyor!");
 });
 
-module.exports = app;
+module.exports = (req, res) => {
+  return app(req, res);
+};
